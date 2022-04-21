@@ -4,7 +4,7 @@ import GlobalStyles from './assets/styles/global';
 
 import Header from './components/Header';
 import TextInput from './components/TextInput';
-import LineChart from './components/LineChart';
+import Graph from './components/Graph';
 import Footer from './components/Footer';
 
 import themes from './assets/styles/themes';
@@ -15,7 +15,7 @@ export default function App() {
       <GlobalStyles />
       <Header />
       <TextInput />
-      <LineChart />
+      <Graph />
       <Footer />
     </ThemeProvider>
   );
