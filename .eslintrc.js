@@ -26,5 +26,7 @@ module.exports = {
     'jsx-a11y/click-events-have-key-events': 'off',
     'react/jsx-no-bind': 'off',
     'import/no-extraneous-dependencies': 'off',
+    'react/prop-types': 'off',
+    'react/jsx-no-constructed-context-values': 'off',
   },
 };

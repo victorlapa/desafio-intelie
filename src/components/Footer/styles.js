@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: ${({ theme }) => theme.backgroundColor};
-  position: sticky;
-  bottom: 50px;
+  background: #DDDEE1;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
 `;
 
 export const Button = styled.div`
@@ -13,7 +15,7 @@ export const Button = styled.div`
   color: #fff;
   background: #017EFF;
   border-radius: 4px;
-  height: 100px;
+  height: 50px;
   width: 200px;
   transition: 0.2s ease-in;
   margin: 50px;
@@ -23,4 +25,10 @@ export const Button = styled.div`
     background: #fff;
     cursor: pointer;
   }
+`;
+
+export const JsonError = styled.p`
+  color: #f00;
+  font-style: 16px;
+  font-family: 'Source Sans Pro';
 `;
