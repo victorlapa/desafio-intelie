@@ -15,6 +15,11 @@ export default function Graph() {
 
   useEffect(() => {
     try {
+      if (updateGraph.length > 1000) {
+        changeJsonError('Too much data, text limit is 1000');
+        return;
+      }
+
       if (updateGraph) {
         const isJson = JSON.parse(updateGraph);
         setGraphData(isJson);
