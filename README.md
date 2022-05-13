@@ -1,3 +1,5 @@
+Challenge Repo: https://github.com/intelie/challenge-chart-plot
+
 For this project, I made a pretty default React application with some components to allow the code to be as scalable as possible and a custom hook named EditorContext that allowed me to expose the values typed in the editor to the footer and the graph component to avoid prop drilling.
 
 Inside EditorContext, there is editorText and a function that changes editorText, this is updated everytime the user types something into the text editor
